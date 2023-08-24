@@ -9,7 +9,7 @@ import java.util.*;
  */
 public class URLReader {
 
-    public static void main(String[] args) throws Exception {
+    public static void reader(String[] args) throws Exception {
         URL siteURL = new URL("http://www.google.com");
         // Crea el objeto que URLConnection
         URLConnection urlConnection = siteURL.openConnection();

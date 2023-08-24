@@ -7,7 +7,7 @@ import java.io.*;
  * Profe estas clases son las que hicimos en clase, no quería borrarlas por si las llego a necesitar después :D
  */
 public class EchoServer {
-    public static void main(String[] args) throws IOException {
+    public static void server(String[] args) throws IOException {
         ServerSocket serverSocket = null;
 
         try {
